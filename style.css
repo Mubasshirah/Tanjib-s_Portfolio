@@ -1,0 +1,190 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+
+.banner{
+background-image: url("./images/big-data-analytics-banner.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 100px;
+align-items: center;
+
+}
+.menu{
+    
+    text-align: center;
+    margin-left: 0px;
+   
+}
+.menu ul{
+    padding-left: 0px;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.menu a{
+    text-decoration: none;
+  
+    color: rgb(41, 36, 36);
+    font-size: 16px;
+    font-weight: bold;
+    
+
+  
+}
+.menu a:hover{
+    color: rgb(61, 60, 60);
+}
+.image{
+    z-index: 111;
+    position: absolute;
+    top: 275px;
+    left: 150px;
+}
+.image img{
+    width:100% ;
+
+   
+    
+    
+}
+.right{
+    position: relative;
+}
+.banner-text{
+    background-color: #b2e6fa94 ;
+    /* margin-right: 200px; */
+    height: 560px;
+ width: 400px;
+    padding: 20px;
+
+    
+}
+.banner-text h1{
+   color: white;
+   font-weight: bold;
+   font-size: 35px;
+   margin-bottom: 10px;
+
+}
+.banner-text p{
+    color:white;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width:576px) {
+    header{
+        height: 1170px;
+    }
+    .banner{
+        width: 100%;
+        grid-template-columns: 1fr;
+    
+        padding-top: 30px;
+      gap: 0px;
+
+    }
+    .menu{
+        margin: 0 auto;
+    }
+    .menu li{
+        border-radius: 10px;
+    }
+    .banner-text{
+        height: 300px;
+        width: 80%;
+        padding: 2% 10%;
+       
+    }
+    .banner-text h1{
+        margin-bottom: 20px;
+    }
+    .image{
+        top: 290px;
+    left: 0px;
+    width: 100%;
+    }
+    .image img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    
+}
+#common{
+    width: 100%;
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 2% 10%;
+}
+.title{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 300px;
+    background-color:#B2E6FA  ;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: -60px;
+    left: -20px;
+}
+.title-text{
+ background-color: rgba(247, 248, 248, 0.226);
+    padding: 20px;
+    padding-top: 100px;
+    color:  rgb(41, 36, 36);
+}
+
+.experience{
+position: relative;
+box-shadow: 10px 10px 20px rgb(245, 243, 243);
+margin-bottom: 50px;
+}
+.all-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.all-image .images img{
+    width: 100%;
+}
+.images{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 240, 240);
+    color: rgb(41, 36, 36);
+    
+}
+@media screen and (max-width:576px){
+    .all-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+footer{
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    background-color: #B2E6FA ;
+    color: rgb(41, 36, 36);
+}
