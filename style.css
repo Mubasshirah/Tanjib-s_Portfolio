@@ -43,6 +43,7 @@ align-items: center;
     font-size: 16px;
     font-weight: bold;
     
+    
 
   
 }
@@ -115,13 +116,14 @@ align-items: center;
         margin-bottom: 12px;
     }
     .image{
-        top: 300px;
+        top: 340px;
     left: 0px;
     width: 100%;
     }
     .image img{
         width: 100%;
     }
+   
 }
 @media screen and (min-width:577px) and (max-width:768px){
     header{
@@ -187,6 +189,9 @@ align-items: center;
     padding: 20px;
     padding-top: 100px;
     color:  rgb(41, 36, 36);
+}
+.title-text i{
+    padding-right: 10px;
 }
 
 .experience{
